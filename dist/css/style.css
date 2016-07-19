@@ -15,6 +15,16 @@ body {
     width: 99.9%;
     max-width: 551px;
     margin: 0px auto; }
+    body .container .btn {
+      text-transform: uppercase;
+      padding: 15px 20px 15px 15px;
+      background-image: linear-gradient(to top, #c3c3c3 0%, #f4f4f4 100%);
+      box-shadow: 0 0 5px rgba(0, 1, 1, 0.15);
+      color: #333;
+      border-radius: 20px;
+      text-decoration: none; }
+      body .container .btn:hover {
+        text-decoration: none; }
     body .container .shirt-col {
       float: left;
       width: 20%;

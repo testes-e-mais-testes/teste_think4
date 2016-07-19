@@ -21,10 +21,33 @@ body .container {
   margin: 0px auto;
 }
 
+body .container .btn {
+  text-transform: uppercase;
+  padding: 15px 20px 15px 15px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#c3c3c3), to(#f4f4f4));
+  background-image: -webkit-linear-gradient(bottom, #c3c3c3 0%, #f4f4f4 100%);
+  background-image: -o-linear-gradient(bottom, #c3c3c3 0%, #f4f4f4 100%);
+  background-image: linear-gradient(to top, #c3c3c3 0%, #f4f4f4 100%);
+  -webkit-box-shadow: 0 0 5px rgba(0, 1, 1, 0.15);
+          box-shadow: 0 0 5px rgba(0, 1, 1, 0.15);
+  color: #333;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+body .container .btn:hover {
+  text-decoration: none;
+}
+
 body .container .shirt-col {
   float: left;
   width: 20%;
   padding-right: 5%;
+}
+
+body .container .btn-col {
+  float: left;
+  width: 99%;
 }
 
 body header {
