@@ -7,20 +7,21 @@
  */
 /* custom styles - simple page, style codes are declared in cascade according to the elements */
 body {
-  box-sizing: border-box;
   font-family: helvetica;
   font-size: 10px;
   margin: 0px;
   background-color: #ffffff; }
   body .container {
-    width: 100%;
+    width: 99.9%;
     max-width: 551px;
     margin: 0px auto; }
     body .container .shirt-col {
       float: left;
       width: 20%;
-      padding-left: 10px;
-      padding-right: 10px; }
+      padding-right: 5%; }
+    body .container .btn-col {
+      float: left;
+      width: 99%; }
   body header {
     background-color: #DBDBDB;
     color: #666666;
@@ -63,10 +64,15 @@ body {
     color: #505050;
     text-align: center;
     line-height: 11px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    padding-left: 20px; }
     body section article .shirt-content .shirt-content-price {
       color: #fa5400;
       font-weight: bold;
       text-transform: capitalize; }
     body section article .shirt-content .shirt-content-price-action {
-      font-weight: bold; }
+      font-weight: bold;
+      line-height: 30px; }
+      body section article .shirt-content .shirt-content-price-action .shirt-content-price-action-icon {
+        color: #fa5400;
+        font-size: 12px; }

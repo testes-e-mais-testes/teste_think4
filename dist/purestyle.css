@@ -9,9 +9,6 @@
 /* custom styles - simple page, style codes are declared in cascade according to the elements */
 
 body {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
   font-family: helvetica;
   font-size: 10px;
   margin: 0px;
@@ -19,7 +16,7 @@ body {
 }
 
 body .container {
-  width: 100%;
+  width: 99.9%;
   max-width: 551px;
   margin: 0px auto;
 }
@@ -27,8 +24,7 @@ body .container {
 body .container .shirt-col {
   float: left;
   width: 20%;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 5%;
 }
 
 body header {
@@ -91,6 +87,7 @@ body section article .shirt-content {
   text-align: center;
   line-height: 11px;
   text-transform: uppercase;
+  padding-left: 20px;
 }
 
 body section article .shirt-content .shirt-content-price {
@@ -101,4 +98,10 @@ body section article .shirt-content .shirt-content-price {
 
 body section article .shirt-content .shirt-content-price-action {
   font-weight: bold;
+  line-height: 30px;
+}
+
+body section article .shirt-content .shirt-content-price-action .shirt-content-price-action-icon {
+  color: #fa5400;
+  font-size: 12px;
 }
