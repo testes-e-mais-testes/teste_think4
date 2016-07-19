@@ -6,65 +6,43 @@
  *
  */
 
-/* simple grid framework code import */
-
 /* custom styles - simple page, style codes are declared in cascade according to the elements */
-
-img .responsive-img {
-  width: 100%;
-}
-
-img .camisa_1 {
-  width: 186px;
-  height: 186px;
-  border-bottom: solid 2px #424242;
-}
-
-img .camisa_2 {
-  width: 185px;
-  height: 191px;
-}
-
-img .camisa_3 {
-  width: 117px;
-  height: 180px;
-}
-
-img .camisa_4 {
-  width: 119px;
-  height: 179px;
-}
 
 body {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
   font-family: helvetica;
+  font-size: 16px;
   margin: 0px;
+  background-color: #ffffff;
 }
 
-body .row {
-  margin: 0px;
+body .container {
+  width: 960px;
+  margin: 0px auto;
+  text-align: center;
 }
 
 body header {
   background-color: #DBDBDB;
-  height: 70px;
   color: #666666;
+  height: 60px;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 body header ul {
-  margin: 25px 0px 0px 70px;
+  position: absolute;
 }
 
 body header ul li {
   list-style: none;
   float: left;
-  padding-right: 35px;
-  margin-right: 35px;
-  border-right: solid 1px #333;
-  text-align: center;
-  font-weight: bold;
+  margin-right: 40px;
+  padding-right: 40px;
+  padding-left: 15px;
+  border-right: solid 1px #bbb;
 }
 
 body header ul li:last-child {
@@ -73,23 +51,16 @@ body header ul li:last-child {
   padding-right: none;
 }
 
-body header nav {
-  text-transform: uppercase;
-}
-
-body article .sub-category {
-  margin-top: 40px;
-  margin-bottom: 30px;
-  color: #333;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-body a {
+body header ul li a {
   text-decoration: none;
   color: #666666;
 }
 
-body a:hover {
+body header ul li a:hover {
   text-decoration: none;
+  color: #999999;
+}
+
+body section article .img-responsive {
+  width: 100%;
 }
