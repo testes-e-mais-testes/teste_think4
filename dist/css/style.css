@@ -1,0 +1,63 @@
+/*
+ *    arquivo css para o teste da think4
+ *
+ *    @project think4 teste
+ *    @author thierry rene matos - webdev front end
+ *
+ */
+/* simple grid framework code import */
+/* custom styles - simple page, style codes are declared in cascade according to the elements */
+body {
+  box-sizing: border-box;
+  font-family: helvetica;
+  margin: 0px; }
+  body .row {
+    margin: 0px; }
+  body header {
+    background-color: #DBDBDB;
+    height: 70px;
+    color: #666666; }
+    body header ul {
+      margin: 25px 0px 0px 70px; }
+      body header ul li {
+        list-style: none;
+        float: left;
+        padding-right: 35px;
+        margin-right: 35px;
+        border-right: solid 1px #333;
+        text-align: center;
+        font-weight: bold; }
+        body header ul li:last-child {
+          border: none;
+          margin-right: none;
+          padding-right: none; }
+    body header nav {
+      text-transform: uppercase; }
+  body article .sub-category {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #333;
+    font-weight: 700;
+    text-transform: uppercase; }
+  body a {
+    text-decoration: none;
+    color: #666666; }
+    body a:hover {
+      text-decoration: none; }
+  body img .banner {
+    -webkit-box-shadow: 5px 29px 115px 0px #a1a1a1;
+    -moz-box-shadow: 5px 29px 115px 0px #a1a1a1;
+    box-shadow: 5px 29px 115px 0px #a1a1a1;
+    width: 100%; }
+  body img .camisa_1 {
+    width: 186px;
+    height: 186px; }
+  body img .camisa_2 {
+    width: 185px;
+    height: 191px; }
+  body img .camisa_3 {
+    width: 117px;
+    height: 180px; }
+  body img .camisa_4 {
+    width: 119px;
+    height: 179px; }
