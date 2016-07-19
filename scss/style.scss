@@ -13,8 +13,14 @@ body {
     & .container {
         width: 960px;
         margin: 0px auto;
-        text-align: center;
         // border: solid 1px black;
+        & .shirt-col {
+            float: left;
+            width: 20%;
+            background-color: gold;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
     }
     box-sizing: border-box;
     font-family: helvetica;
@@ -55,12 +61,24 @@ body {
     & section {
         
         & article {
-            .img-responsive {
+            & #sub-title {
+                text-transform: uppercase;
+                margin-top: 20px;
+                text-align: center;
+            }
+            & .img-responsive {
                 width: 100%;
+                &:first-child {
+                    -webkit-box-shadow: 5px 0px 115px 0px rgba(161, 161, 161, 1);
+                    -moz-box-shadow: 5px 29px 115px 0px rgba(161, 161, 161, 1);
+                    box-shadow: 5px 0px 115px 0px rgba(161, 161, 161, 1);
+                }
             }
         }
     }
 }
+    
+    
     // body {
     //     box-sizing: border-box;
     //     font-family: helvetica;

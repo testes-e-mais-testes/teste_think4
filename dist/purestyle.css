@@ -21,7 +21,14 @@ body {
 body .container {
   width: 960px;
   margin: 0px auto;
-  text-align: center;
+}
+
+body .container .shirt-col {
+  float: left;
+  width: 20%;
+  background-color: gold;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 body header {
@@ -61,6 +68,17 @@ body header ul li a:hover {
   color: #999999;
 }
 
+body section article #sub-title {
+  text-transform: uppercase;
+  margin-top: 20px;
+  text-align: center;
+}
+
 body section article .img-responsive {
   width: 100%;
+}
+
+body section article .img-responsive:first-child {
+  -webkit-box-shadow: 5px 0px 115px 0px #a1a1a1;
+  box-shadow: 5px 0px 115px 0px #a1a1a1;
 }
