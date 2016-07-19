@@ -73,6 +73,7 @@ body section article .sub-title {
   text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 22px;
   text-align: center;
 }
 
@@ -92,6 +93,12 @@ body section article .shirt-content {
   text-transform: uppercase;
 }
 
-body section article .shirt-content-price {
+body section article .shirt-content .shirt-content-price {
   color: #fa5400;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+body section article .shirt-content .shirt-content-price-action {
+  font-weight: bold;
 }

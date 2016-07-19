@@ -51,6 +51,7 @@ body {
     text-transform: uppercase;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-size: 22px;
     text-align: center; }
   body section article .img-responsive {
     width: 100%; }
@@ -63,5 +64,9 @@ body {
     text-align: center;
     line-height: 11px;
     text-transform: uppercase; }
-  body section article .shirt-content-price {
-    color: #fa5400; }
+    body section article .shirt-content .shirt-content-price {
+      color: #fa5400;
+      font-weight: bold;
+      text-transform: capitalize; }
+    body section article .shirt-content .shirt-content-price-action {
+      font-weight: bold; }

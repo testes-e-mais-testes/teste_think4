@@ -66,6 +66,7 @@ body {
                 text-transform: uppercase;
                 margin-top: 20px;
                 margin-bottom: 20px;
+                font-size: 22px;
                 text-align: center;
             }
             & .img-responsive {
@@ -81,27 +82,19 @@ body {
                 text-align: center;
                 line-height: 11px;
                 text-transform: uppercase;
+                // & .shirt-content-title, .shirt-content-price-action {
+                //     text-transform: uppercase;
+                // }
+                & .shirt-content-price {
+                    color: #fa5400;
+                    font-weight: bold;
+                    text-transform: capitalize;
+                }
+                & .shirt-content-price-action {
+                    font-weight: bold;
+                }
             }
-            & .shirt-content-price {
-                color: #fa5400;
-            }
-            // & .camisa-1 {
-            //     width: 186px;
-            //     height: 186px;
-            // }
-            // & .camisa-2 {
-            //     width: 185px;
-            //     height: 191px;
-            // }
             
-            // & .camisa-3 {
-            //     width: 117px;
-            //     height: 180px;
-            // }
-            // & .camisa-4 {
-            //     width: 119px;
-            //     height: 179px;
-            // }
         }
     }
 }
