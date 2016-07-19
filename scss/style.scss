@@ -13,6 +13,35 @@
 
 /* custom styles - simple page, style codes are declared in cascade according to the elements */
 
+img {
+    .responsive-img {
+        width: 100%;
+    }
+    // &:first-child {
+    //     -webkit-box-shadow: 5px 29px 115px 0px rgba(161, 161, 161, 1);
+    //     -moz-box-shadow: 5px 29px 115px 0px rgba(161, 161, 161, 1);
+    //     box-shadow: 5px 29px 115px 0px rgba(161, 161, 161, 1);
+    //     width: 100%;
+    // }
+    & .camisa_1 {
+        width: 186px;
+        height: 186px;
+        border-bottom: solid 2px #424242;
+    }
+    & .camisa_2 {
+        width: 185px;
+        height: 191px;
+    }
+    & .camisa_3 {
+        width: 117px;
+        height: 180px;
+    }
+    & .camisa_4 {
+        width: 119px;
+        height: 179px;
+    }
+}
+
 body {
     box-sizing: border-box;
     font-family: helvetica;
@@ -63,30 +92,6 @@ body {
         color: #666666;
         &:hover {
             text-decoration: none;
-        }
-    }
-    img {
-        & .banner {
-            -webkit-box-shadow: 5px 29px 115px 0px rgba(161, 161, 161, 1);
-            -moz-box-shadow: 5px 29px 115px 0px rgba(161, 161, 161, 1);
-            box-shadow: 5px 29px 115px 0px rgba(161, 161, 161, 1);
-            width: 100%;
-        }
-        & .camisa_1 {
-            width: 186px;
-            height: 186px;
-        }
-        & .camisa_2 {
-            width: 185px;
-            height: 191px;
-        }
-        & .camisa_3 {
-            width: 117px;
-            height: 180px;
-        }
-        & .camisa_4 {
-            width: 119px;
-            height: 179px;
         }
     }
 }
