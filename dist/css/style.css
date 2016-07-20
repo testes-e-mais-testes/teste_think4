@@ -11,6 +11,8 @@ body {
   font-size: 10px;
   margin: 0px;
   background-color: #ffffff; }
+  body hr {
+    background-color: #dbdbdb; }
   body a {
     text-decoration: none;
     color: #666666; }
@@ -40,11 +42,16 @@ body {
       margin-left: 230px;
       margin-top: 20px; }
     body .container .moreinfo-col {
-      loat: left;
-      width: 99%;
+      float: left;
+      margin-left: 30px;
+      margin-top: 45px;
       background-color: #eee;
-      width: 461px;
-      height: 175px; }
+      width: 411px;
+      height: 115px;
+      padding: 50px;
+      line-height: 50px; }
+      body .container .moreinfo-col moreinfo-first-line span {
+        vertical-align: middle; }
   body header {
     background-color: #DBDBDB;
     color: #666666;

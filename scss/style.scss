@@ -14,6 +14,9 @@ body {
     font-size: 10px;
     margin: 0px;
     background-color: #ffffff;
+    & hr {
+        background-color: #dbdbdb;
+    }
     & a {
         text-decoration: none;
         color: #666666;
@@ -48,11 +51,17 @@ body {
             margin-top: 20px;
         }
         & .moreinfo-col {
-            loat: left;
-            width: 99%;
+            float: left;
+            margin-left: 30px;
+            margin-top: 45px;
             background-color: #eee;
-            width: 461px;
-            height: 175px;
+            width: 411px;
+            height: 115px;
+            padding: 50px;
+            line-height: 50px;
+            & moreinfo-first-line span {
+                vertical-align: middle;    
+            }
         }
     }
     header {
