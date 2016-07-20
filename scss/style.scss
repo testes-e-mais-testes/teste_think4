@@ -15,7 +15,10 @@ body {
     margin: 0px;
     background-color: #ffffff;
     & hr {
-        background-color: #dbdbdb;
+        border-top: solid 1px #dbdbdb;
+        border-left: none;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     & a {
         text-decoration: none;
@@ -52,15 +55,43 @@ body {
         }
         & .moreinfo-col {
             float: left;
-            margin-left: 30px;
+            margin-left: 25px;
             margin-top: 45px;
             background-color: #eee;
             width: 411px;
-            height: 115px;
             padding: 50px;
-            line-height: 50px;
-            & moreinfo-first-line span {
-                vertical-align: middle;    
+            font-size: 12px;
+            line-height: 18px;
+            & .moreinfo-text {
+                margin-top: 8px;
+                position: absolute;
+            }
+            & .text-focus-1 {
+                color: #fa5400;
+                font-size: 15px;
+                font-weight: 700;
+                margin-left: 18px;
+            }
+            & .text-focus-2 {
+                color: #333;
+                font-weight: bold;
+                text-transform: capitalize;
+            }
+            & .text-focus-icon {
+                color: #fa5400;
+            }
+        }
+        & .twitter-col {
+            width: 99%;
+            margin-top: 20px;
+            margin-left: 200px;
+            margin-bottom: 20px;
+            float: left;
+            font-size: 12px;
+            & .twitter-col-text {
+                margin-left: 15px;
+                margin-top: 6px;
+                position: absolute;
             }
         }
     }
@@ -85,18 +116,10 @@ body {
                     margin-right: none;
                     padding-right: none;
                 }
-                // & a {
-                //     text-decoration: none;
-                //     color: #666666;
-                //     &:hover {
-                //         text-decoration: none;
-                //         color: #999999;
-                //     }
-                // }
             }
         }
     }
-    & section {
+    section {
         & article {
             & .sub-title {
                 text-transform: uppercase;
@@ -133,6 +156,17 @@ body {
                     }
                 }
             }
+        }
+    }
+    footer {
+        & .footer-col-1 {
+            width: 50%;
+            float: left;
+        }
+        & .footer-col-2 {
+            width: 50%;
+            float: left;
+            text-align: right;
         }
     }
 }

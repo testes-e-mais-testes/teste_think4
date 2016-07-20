@@ -12,7 +12,10 @@ body {
   margin: 0px;
   background-color: #ffffff; }
   body hr {
-    background-color: #dbdbdb; }
+    border-top: solid 1px #dbdbdb;
+    border-left: none;
+    margin-top: 30px;
+    margin-bottom: 30px; }
   body a {
     text-decoration: none;
     color: #666666; }
@@ -43,15 +46,38 @@ body {
       margin-top: 20px; }
     body .container .moreinfo-col {
       float: left;
-      margin-left: 30px;
+      margin-left: 25px;
       margin-top: 45px;
       background-color: #eee;
       width: 411px;
-      height: 115px;
       padding: 50px;
-      line-height: 50px; }
-      body .container .moreinfo-col moreinfo-first-line span {
-        vertical-align: middle; }
+      font-size: 12px;
+      line-height: 18px; }
+      body .container .moreinfo-col .moreinfo-text {
+        margin-top: 8px;
+        position: absolute; }
+      body .container .moreinfo-col .text-focus-1 {
+        color: #fa5400;
+        font-size: 15px;
+        font-weight: 700;
+        margin-left: 18px; }
+      body .container .moreinfo-col .text-focus-2 {
+        color: #333;
+        font-weight: bold;
+        text-transform: capitalize; }
+      body .container .moreinfo-col .text-focus-icon {
+        color: #fa5400; }
+    body .container .twitter-col {
+      width: 99%;
+      margin-top: 20px;
+      margin-left: 200px;
+      margin-bottom: 20px;
+      float: left;
+      font-size: 12px; }
+      body .container .twitter-col .twitter-col-text {
+        margin-left: 15px;
+        margin-top: 6px;
+        position: absolute; }
   body header {
     background-color: #DBDBDB;
     color: #666666;
@@ -100,3 +126,10 @@ body {
       body section article .shirt-content .shirt-content-price-action .shirt-content-price-action-icon {
         color: #fa5400;
         font-size: 12px; }
+  body footer .footer-col-1 {
+    width: 50%;
+    float: left; }
+  body footer .footer-col-2 {
+    width: 50%;
+    float: left;
+    text-align: right; }
