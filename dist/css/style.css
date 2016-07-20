@@ -22,6 +22,67 @@ body {
     body a:hover {
       text-decoration: none;
       color: #999999; }
+  body header {
+    background-color: #DBDBDB;
+    color: #666666;
+    height: 43px;
+    text-transform: uppercase;
+    font-weight: bold; }
+    body header ul {
+      position: absolute;
+      margin-top: 16px; }
+      body header ul li {
+        list-style: none;
+        float: left;
+        margin-right: 20px;
+        padding-right: 20px;
+        padding-left: 5px;
+        border-right: solid 1px #bbb; }
+        body header ul li:last-child {
+          border: none;
+          margin-right: none;
+          padding-right: none; }
+  body section article .sub-title {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-align: center; }
+  body section article .img-responsive {
+    width: 100%; }
+    body section article .img-responsive:first-child {
+      -webkit-box-shadow: 5px 0px 115px 0px #a1a1a1;
+      -moz-box-shadow: 5px 29px 115px 0px #a1a1a1;
+      box-shadow: 5px 0px 115px 0px #a1a1a1; }
+  body section article .shirt-content {
+    color: #505050;
+    text-align: center;
+    line-height: 11px;
+    text-transform: uppercase;
+    padding-left: 20px; }
+    body section article .shirt-content .shirt-content-price {
+      color: #fa5400;
+      font-weight: bold;
+      text-transform: capitalize; }
+    body section article .shirt-content .shirt-content-price-action {
+      font-weight: bold;
+      line-height: 30px; }
+      body section article .shirt-content .shirt-content-price-action .shirt-content-price-action-icon {
+        color: #fa5400;
+        font-size: 12px; }
+  body footer {
+    height: 30px;
+    background-color: #444;
+    padding-top: 20px;
+    color: #fff;
+    clear: both; }
+    body footer .footer-col-1 {
+      width: 50%;
+      float: left; }
+    body footer .footer-col-2 {
+      width: 50%;
+      float: left;
+      text-align: right; }
   body .container {
     width: 99.9%;
     max-width: 551px;
@@ -78,58 +139,3 @@ body {
         margin-left: 15px;
         margin-top: 6px;
         position: absolute; }
-  body header {
-    background-color: #DBDBDB;
-    color: #666666;
-    height: 43px;
-    text-transform: uppercase;
-    font-weight: bold; }
-    body header ul {
-      position: absolute;
-      margin-top: 16px; }
-      body header ul li {
-        list-style: none;
-        float: left;
-        margin-right: 20px;
-        padding-right: 20px;
-        padding-left: 5px;
-        border-right: solid 1px #bbb; }
-        body header ul li:last-child {
-          border: none;
-          margin-right: none;
-          padding-right: none; }
-  body section article .sub-title {
-    text-transform: uppercase;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: 22px;
-    text-align: center; }
-  body section article .img-responsive {
-    width: 100%; }
-    body section article .img-responsive:first-child {
-      -webkit-box-shadow: 5px 0px 115px 0px #a1a1a1;
-      -moz-box-shadow: 5px 29px 115px 0px #a1a1a1;
-      box-shadow: 5px 0px 115px 0px #a1a1a1; }
-  body section article .shirt-content {
-    color: #505050;
-    text-align: center;
-    line-height: 11px;
-    text-transform: uppercase;
-    padding-left: 20px; }
-    body section article .shirt-content .shirt-content-price {
-      color: #fa5400;
-      font-weight: bold;
-      text-transform: capitalize; }
-    body section article .shirt-content .shirt-content-price-action {
-      font-weight: bold;
-      line-height: 30px; }
-      body section article .shirt-content .shirt-content-price-action .shirt-content-price-action-icon {
-        color: #fa5400;
-        font-size: 12px; }
-  body footer .footer-col-1 {
-    width: 50%;
-    float: left; }
-  body footer .footer-col-2 {
-    width: 50%;
-    float: left;
-    text-align: right; }
