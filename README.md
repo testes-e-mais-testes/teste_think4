@@ -1,11 +1,11 @@
 #think4 job test
 
+**pasta dist com os arquivos finais**
+
 projeto está sendo executado com o seguinte workflow:
 
-- grunt gerencia e executa tarefas
-    - processar arquivos jade para html
-    - processar estilos scss/sass
-    - purificar css, deixando disponível apenas o que realmente é utilizado no html principal
-    - adicionar prefixos de estilo de outros navegadores
-    - otimizar imagens
-- finalizada a tarefa do grunt, é gerada a pasta dist, que contém os arquivos prontos para utilização.
+- grunt
+    - jade - apenas para facilitar o hmtl, tudo é compilado depois na pasta **dist**
+    - sass - melhorar o workflow css
+    - algumas tarefas do grunt para limpar o css e incluir prefix de outros navegadores.
+

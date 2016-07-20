@@ -2,7 +2,7 @@
  *    arquivo css para o teste da think4
  *
  *    @project think4 teste
- *    @author thierry rene matos - webdev front end
+      @author thierry rene matos - webdev front end
  *
  */
 
@@ -13,6 +13,16 @@ body {
   font-size: 10px;
   margin: 0px;
   background-color: #ffffff;
+}
+
+body a {
+  text-decoration: none;
+  color: #666666;
+}
+
+body a:hover {
+  text-decoration: none;
+  color: #999999;
 }
 
 body .container {
@@ -32,11 +42,8 @@ body .container .btn {
           box-shadow: 0 0 5px rgba(0, 1, 1, 0.15);
   color: #333;
   border-radius: 20px;
-  text-decoration: none;
-}
-
-body .container .btn:hover {
-  text-decoration: none;
+  font-weight: bold;
+  margin: 40px 0px;
 }
 
 body .container .shirt-col {
@@ -48,6 +55,16 @@ body .container .shirt-col {
 body .container .btn-col {
   float: left;
   width: 99%;
+  margin-left: 230px;
+  margin-top: 20px;
+}
+
+body .container .moreinfo-col {
+  loat: left;
+  width: 99%;
+  background-color: #eee;
+  width: 461px;
+  height: 175px;
 }
 
 body header {
@@ -76,16 +93,6 @@ body header ul li:last-child {
   border: none;
   margin-right: none;
   padding-right: none;
-}
-
-body header ul li a {
-  text-decoration: none;
-  color: #666666;
-}
-
-body header ul li a:hover {
-  text-decoration: none;
-  color: #999999;
 }
 
 body section article .sub-title {
